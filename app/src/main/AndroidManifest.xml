@@ -9,6 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".Detail"> 
+            <meta-data android:name="android.support.PARENT_ACTIVITY" 
+                       android:value=".MainActivity" 
+                       </activity>
         <activity android:name=".DetailAct"></activity>
         <activity android:name=".MainActivity">
 
